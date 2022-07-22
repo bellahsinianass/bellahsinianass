@@ -6,32 +6,141 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.7.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap"
+        rel="stylesheet">
     <style>
-        img{
+        *,
+        html,
+        body {
+            font-family: 'Poppins', sans-serif;
+            font-size: 10px;
+            box-sizing: border-box;
+            margin: 0px;
+            padding: 0px;
+        }
+        body{
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            align-items: center;
+            margin: 0px;
+            padding: 0px;
+            height: 100vh;
+        }
+        .mainBody{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            max-width: 20%;
             height: 100%;
-            width: 100%;
+
+        }
+
+        .profileImg {
+            height: 220px;
+            width: 220px;
+            border-radius: 50%;
+            object-fit: contain;
+            border: 4px solid black;
+        }
+
+        .imgCadr {
+            background-color: greenyellow;
+            display: flex;
+            align-content: center;
+            justify-content: center;
+            align-items: center;
+            /* border-radius: 50%; */
+            /* padding: 10px; */
+            /* margin: 100px; */
+        }
+
+        h1 {
+            font-size: 3rem;
+            text-align: center;
+        }
+
+        p {
+            font-size: 1.7rem;
+            text-align: justify;
+        }
+
+        i {
+            font-size: 2.5rem;
+        }
+
+        .icons {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+        }
+        @media only screen and (max-width: 1400px) {
+            .mainBody{
+            max-width: 30%;
+            }
+        }
+
+        @media only screen and (max-width: 1000px) {
+            .mainBody{
+            max-width: 40%;
+            }
+        }
+
+        @media only screen and (max-width: 800px) {
+            .mainBody{
+            max-width: 50%;
+            }
+        }
+
+        @media only screen and (max-width: 600px) {
+            .mainBody{
+            max-width: 80%;
+            }
+        }
+
+        @media only screen and (max-width: 400px) {
+            .mainBody{
+            max-width: 90%;
+            }
+        }
+
+        @media only screen and (min-width: 1950px) {
+            .mainBody{
+            max-width: 400px;
+            }
         }
     </style>
 </head>
 
 <body>
-    <Section>
-        <div>
-            <img src="https://media-exp1.licdn.com/dms/image/C5603AQH6hnflMJuCOA/profile-displayphoto-shrink_800_800/0/1655218234422?e=1663804800&v=beta&t=wp7fly4SZ5FFZ51hvgDiG-mr1Z-jfzoyHL0rMXNWLKM" alt="">
+    <Section class="mainBody">
+        <div class="imgCadr">
+            <img src="https://lh3.google.com/u/0/d/1Hp9de7ov9TgXWByAMuQTsgK3cyf2hSb9=w1920-h996-iv1" class="profileImg" alt="">
         </div>
         <h1>Anass Belhasini</h1>
 
         <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo recusandae voluptate aperiam! Ducimus iure ad
-            deleniti aut. Porro perferendis explicabo qui perspiciatis, repudiandae ullam aliquid. Sequi reprehenderit
-            voluptate ullam vero.
+            Bellahsini Anass is a 25 years old from Tangier ,morocco. Holder of a master degree in administration and management of organizations. He is project digital manager and he performs data and business analysis.  
+        </p>
+        <p>
+            This website will be dedicated to showcase his project and his contributions in Business intelligence.
         </p>
 
-        <div>
-            <i class="fab fa-linkedin"></i>
-            <i class="fab fa-github"></i>
-            <i class="fas fa-envelope"></i>
+        <div class="icons">
+            <a href="https://www.linkedin.com/in/bellahsini-anass/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/bellahsinianass" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="mailto:bellahsini.anass97@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
         </div>
+
     </Section>
 </body>
 
