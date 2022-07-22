@@ -21,7 +21,8 @@
             margin: 0px;
             padding: 0px;
         }
-        body{
+
+        body {
             display: flex;
             justify-content: center;
             align-content: center;
@@ -31,9 +32,11 @@
             height: 100vh;
             background: linear-gradient(243.18deg, #A7ABFF 0%, #AAFDDA 100%);
         }
-        .mainBody{
+
+        .mainBody {
             display: flex;
             justify-content: center;
+            align-items: center;
             flex-direction: column;
             max-width: 20%;
             height: 100%;
@@ -59,7 +62,7 @@
             /* margin: 100px; */
         }
 
-        .headline{
+        .headline {
             text-align: center;
         }
 
@@ -67,7 +70,8 @@
             font-size: 3rem;
             line-height: 1;
         }
-        span{
+
+        span {
             font-size: 1.6rem;
             font-weight: 500;
         }
@@ -75,10 +79,18 @@
         p {
             font-size: 1.7rem;
             text-align: justify;
+            color: rgb(39, 39, 39);
         }
 
         i {
             font-size: 2.5rem;
+        }
+
+        hr.solid {
+            border: 1px solid rgba(0, 0, 0, 0.325);
+            max-width: 60%;
+            width: 100%;
+            border-radius: 5px;
         }
 
         .icons {
@@ -94,64 +106,82 @@
         }
 
         @media only screen and (min-width: 1950px) {
-            .mainBody{
-            max-width: 400px;
+            .mainBody {
+                max-width: 400px;
             }
         }
 
         @media only screen and (max-width: 1400px) {
-            .mainBody{
-            max-width: 30%;
+            .mainBody {
+                max-width: 30%;
             }
         }
 
         @media only screen and (max-width: 1000px) {
-            .mainBody{
-            max-width: 40%;
+            .mainBody {
+                max-width: 40%;
             }
         }
 
         @media only screen and (max-width: 800px) {
-            .mainBody{
-            max-width: 50%;
+            .mainBody {
+                max-width: 50%;
             }
 
-            h1 {font-size: 2.5rem;}
-            p {font-size: 1.4rem;}
+            h1 {
+                font-size: 2.5rem;
+            }
+
+            p {
+                font-size: 1.4rem;
+            }
         }
 
         @media only screen and (max-width: 600px) {
-            .mainBody{
-            max-width: 80%;
+            .mainBody {
+                max-width: 80%;
             }
-            h1 {font-size: 2.5rem;}
-            p {font-size: 1.4rem;}
+
+            h1 {
+                font-size: 2.5rem;
+            }
+
+            p {
+                font-size: 1.4rem;
+            }
         }
 
         @media only screen and (max-width: 400px) {
-            .mainBody{
-            max-width: 90%;
+            .mainBody {
+                max-width: 90%;
             }
-            h1 {font-size: 2.5rem;}
-            p {font-size: 1.4rem;}
-        }
 
-        
+            h1 {
+                font-size: 2.5rem;
+            }
+
+            p {
+                font-size: 1.4rem;
+            }
+        }
     </style>
 </head>
 
 <body>
     <Section class="mainBody">
         <div class="imgCadr">
-            <img src="https://lh3.google.com/u/0/d/1Hp9de7ov9TgXWByAMuQTsgK3cyf2hSb9=w1920-h996-iv1" class="profileImg" alt="">
+            <img src="https://lh3.google.com/u/0/d/1Hp9de7ov9TgXWByAMuQTsgK3cyf2hSb9=w1920-h996-iv1" class="profileImg"
+                alt="">
         </div>
 
         <div class="headline">
             <h1>Anass Belhasini</h1>
             <span>Business Intelligence Consultant</span>
         </div>
+        <hr class="solid">
         <p>
-            Bellahsini Anass is a 25 years old from Tangier ,morocco. Holder of a master degree in administration and management of organizations. He is project digital manager and he performs data and business analysis.  
+            Bellahsini Anass is a 25 years old from Tangier ,morocco. Holder of a master degree in administration and
+            management of organizations. He is project digital manager and he performs data and business analysis.
         </p>
         <p>
             This website will be dedicated to showcase his project and his contributions in Business intelligence.
