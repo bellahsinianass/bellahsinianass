@@ -16,7 +16,8 @@ body {
   padding: 0px;
   height: 100vh;
   overflow: hidden;
-  background: transparent;
+  /* background: transparent; */
+  background: linear-gradient(243.18deg, #A7ABFF 0%, #AAFDDA 100%);
 }
 
 canvas {
