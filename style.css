@@ -37,7 +37,7 @@ canvas {
   max-width: 30%;
   height: 100%;
   gap: 20px;
-  background: lightblue;
+  /* background: lightblue; */
 }
 
 .profileImg {
