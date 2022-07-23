@@ -34,7 +34,7 @@ body {
     width: 220px;
     border-radius: 50%;
     object-fit: contain;
-    border: 4px solid black;
+    /* border: 4px solid black; */
 }
 
 .imgCadr {
@@ -93,6 +93,37 @@ a {
     color: black;
 }
 
+
+
+/* ================= */
+        * {
+            margin: 0;
+            padding: 0;
+        /*   color: #FFF; */
+        }
+        
+        canvas#canvas {
+            display: block;
+            background: #000;
+        }
+        
+        ul#navigation {
+            position: absolute;
+            height: 100%;
+            top: 0;
+            right: 0;
+            text-align: center;
+            margin-right: 1.6rem;
+            font-size: 0.8rem;
+            -webkit-writing-mode: vertical-rl;
+                -ms-writing-mode: tb-rl;
+                    writing-mode: vertical-rl;
+        }
+        
+        ul#navigation > li {
+            display: inline-block;
+        }
+/* ================= */
 @media only screen and (min-width: 1950px) {
     .mainBody {
         max-width: 500px;
