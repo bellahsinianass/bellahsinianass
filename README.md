@@ -1,4 +1,4 @@
-check me here: https://bellahsinianass.github.io/bellahsinianass/
+check me here: https://bellahsinianass.com/
 
 <!--### Hi there 👋
 
