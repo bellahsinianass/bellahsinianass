@@ -1,4 +1,4 @@
-check me here: https://bellahsinianass.com/
+Check me here: bellahsini.com
 
 <!--### Hi there 👋
 
