@@ -38,7 +38,12 @@ box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
 backdrop-filter: blur(13.2px);
 -webkit-backdrop-filter: blur(13.2px);
 /* border: 1px solid rgb(223, 219, 219); */
-  
+}
+
+.pBox{
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
 }
 
 .imgCadr {
