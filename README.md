@@ -1,4 +1,4 @@
-Check me here: [bellahsini.com]([url](https://bellahsinianass.com/))
+Check me here: [bellahsini.com]([url](https://bellahsinianass.com))
 
 <!--### Hi there 👋
 
