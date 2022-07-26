@@ -26,9 +26,19 @@ body {
   align-items: center;
   flex-direction: column;
   max-width: 30%;
-  height: 100%;
+  /* height: 100%; */
   gap: 20px;
-  /* background: lightblue; */
+  background: #0096FF;
+  padding: 20px;
+  /* background: red; */
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.30);
+border-radius: 16px;
+box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(13.2px);
+-webkit-backdrop-filter: blur(13.2px);
+border: 1px solid rgb(223, 219, 219);
+  
 }
 
 .imgCadr {
@@ -38,6 +48,7 @@ body {
   align-content: center;
   justify-content: center;
   align-items: center;
+  background-color: #0096FF;
   background-image: url("https://media-exp1.licdn.com/dms/image/C4E03AQHuhFlnySUMSg/profile-displayphoto-shrink_800_800/0/1658549407259?e=1663804800&v=beta&t=gj6j3pMvkfiIFM2GBj19fCIYo2DTfJhhnlwPF6ExIyE");
   object-fit: contain;
   background-repeat: no-repeat;
@@ -90,30 +101,67 @@ a {
   color: black;
 }
 
+.test {
+  background-color: #f76;
+  background-image:
+    linear-gradient(30deg, #fee 13.5%, transparent 13.5%, transparent 86.5%, #fee 86.5%),
+    linear-gradient(-30deg, #fee 13.5%, transparent 13.5%, transparent 86.5%, #fee 86.5%),
+    linear-gradient(30deg, #dcc 13.5%, transparent 13.5%, transparent 86.5%, #dcc 86.5%),
+    linear-gradient(-30deg, #dcc 13.5%, transparent 13.5%, transparent 86.5%, #dcc 86.5%),
+    linear-gradient(30deg, #fee 13.5%, transparent 13.5%, transparent 86.5%, #fee 86.5%),
+    linear-gradient(-30deg, #fee 13.5%, transparent 13.5%, transparent 86.5%, #fee 86.5%),
+    linear-gradient(30deg, #dcc 13.5%, transparent 13.5%, transparent 86.5%, #dcc 86.5%),
+    linear-gradient(-30deg, #dcc 13.5%, transparent 13.5%, transparent 86.5%, #dcc 86.5%),
+    linear-gradient(45deg, #544 25%, transparent 25%, transparent 75%, #544 75%),
+    linear-gradient(45deg, #544 25%, transparent 25%, transparent 75%, #544 75%);
+  background-position:
+    0em 2em,
+    0em 2em,
+    2em 4em,
+    2em 4em,
+    4em 2em,
+    4em 2em,
+    6em 4em,
+    6em 4em,
+    0em 0em,
+    2em 2em;
+  background-size:
+    8em 4em,
+    8em 4em,
+    8em 4em,
+    8em 4em,
+    8em 4em,
+    8em 4em,
+    8em 4em,
+    8em 4em,
+    4em 4em,
+    4em 4em;
+}
+
 
 
 @media only screen and (min-width: 1950px) {
     .mainBody {
-        max-width: 500px;
+        max-width: 450px;
     }
 }
 
 @media only screen and (max-width: 1400px) {
     .mainBody {
-        max-width: 30%;
+        max-width: 35%;
     }
 }
 
 @media only screen and (max-width: 1000px) {
     .mainBody {
-        max-width: 40%;
+        max-width: 45%;
     }
     
 }
 
 @media only screen and (max-width: 800px) {
     .mainBody {
-        max-width: 50%;
+        max-width: 55%;
     }
     .imgCadr {
       height: 180px;
