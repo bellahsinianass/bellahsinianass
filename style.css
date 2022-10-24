@@ -54,6 +54,7 @@ body {
   color: white;
   padding: 0;
 }
+
 /* NAV */
 
 .mainBody {
@@ -172,9 +173,10 @@ a:hover {
   .mainBody {
     max-width: 45%;
   }
-  .navLinks{
+
+  .navLinks {
     justify-content: space-around;
-}
+  }
 
 }
 
@@ -213,6 +215,17 @@ a:hover {
 
   p {
     font-size: 1.3rem;
+  }
+
+  .myNav {
+    width: 100%;
+    height: 50px;
+    justify-content: space-evenly;
+    background-color: black;
+  }
+
+  .myNav a {
+    font-size: 1.3em;
   }
 }
 
