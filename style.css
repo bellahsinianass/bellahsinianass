@@ -62,6 +62,7 @@ body {
   align-items: center;
   flex-direction: column;
   max-width: 30%;
+  margin: 20px 0 0 0;
   /* height: 100%; */
   gap: 20px;
   background: #0096FF;
@@ -171,6 +172,9 @@ a:hover {
   .mainBody {
     max-width: 45%;
   }
+  .navLinks{
+    justify-content: space-around;
+}
 
 }
 
