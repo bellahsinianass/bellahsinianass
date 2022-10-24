@@ -89,6 +89,10 @@ body {
 
 .mainBodyContainer{
   height: calc(100% - 60px);
+  /* margin: 60px 0 0 0; */
+  position: absolute;
+  bottom: 0;
+  left: 0;
   
 }
 
